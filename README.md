@@ -3,6 +3,7 @@ Raspberry Pi 4 Setup Notes
 
 [Installing MongoDB](https://www.mongodb.com/developer/products/mongodb/mongodb-on-raspberry-pi/)
 
+[Automate Continuous MongoDB to S3](https://www.mongodb.com/developer/products/atlas/automated-continuous-data-copying-from-mongodb-to-s3/)
 ```bash
 #!/bin/bash
 
