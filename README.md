@@ -9,6 +9,8 @@ Raspberry Pi 4 Setup Notes
 
 https://www.hardill.me.uk/wordpress/2019/11/02/pi4-usb-c-gadget/
 
+### With SD card or USB drive attached to another computer
+
 Edit `/boot/config.txt` and add the following to the end of the file:
 ```
 dtoverlay=dwc2
@@ -18,6 +20,10 @@ Edit `/boot/cmdline.txt` and add the following on a new line at the end of the f
 ```
 modules-load=dwc2
 ```
+
+### From the Raspberry Pi
+
+Editing may require `sudo nano`
 
 Edit `/etc/modules` and add the following the the end of the file:
 ```
