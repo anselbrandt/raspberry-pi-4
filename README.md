@@ -92,3 +92,14 @@ service dnsmasq restart
 Next edit `/etc/rc.local`:
 
 Add `sh /root/usb.sh` right before the line `exit 0`
+
+### Connect
+
+```
+ssh <your-username>@10.55.0.1
+```
+
+Code Server
+```
+10.55.0.1:8080
+```
