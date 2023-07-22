@@ -29,6 +29,11 @@ Edit `/etc/dhcpcd.conf` and add the following to the end of the file:
 denyinterfaces usb0
 ```
 
+#### Install `dnsmasq`
+```
+sudo apt-get install dnsmasq
+```
+
 Create the following file:
 ```
 sudo touch /etc/dnsmasq.d/usb
