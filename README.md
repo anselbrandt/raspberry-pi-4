@@ -9,7 +9,7 @@ Raspberry Pi 4 Setup Notes
 
 https://www.hardill.me.uk/wordpress/2019/11/02/pi4-usb-c-gadget/
 
-### With SD card or USB drive attached to another computer
+https://www.reddit.com/r/RGNets/comments/tsmx97/raspberry_pi_use_usb_c_port_as_ethernet/
 
 Edit `/boot/config.txt` and add the following to the end of the file:
 ```
@@ -20,8 +20,6 @@ Edit `/boot/cmdline.txt` and add the following on a new line at the end of the f
 ```
 modules-load=dwc2
 ```
-
-### From the Raspberry Pi
 
 Editing may require `sudo nano`
 
