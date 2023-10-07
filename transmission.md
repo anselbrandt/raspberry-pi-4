@@ -32,7 +32,11 @@ USER=pi
 ```
 sudo nano /etc/systemd/system/multi-user.target.wants/transmission-daemon.service
 ```
+
+```
 user=pi
+```
+
 ```
 sudo systemctl daemon-reload
 sudo chown -R pi:pi /etc/transmission-daemon
